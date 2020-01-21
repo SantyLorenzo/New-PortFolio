@@ -1,0 +1,23 @@
+.slick-prev {
+  left: 3% !important;
+  z-index: 1;
+  // background-color: red;
+  
+}
+.slick-next {
+  right: 3% !important;
+  z-index: 1;
+  // background-color: red;
+}
+
+.slick-prev:before {
+  content: "<";
+  color: red;
+  font-size: 30px;
+}
+
+.slick-next:before {
+  content: ">";
+  color: red;
+  font-size: 30px;
+}
