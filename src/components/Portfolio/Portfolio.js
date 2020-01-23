@@ -73,6 +73,13 @@ const Projects = [
     linkToPage: 'https://santiagolorenzo.netlify.com/',
     linkToGithub: 'https://github.com/SantyLorenzo/Old-PortFolio',
   },
+  {
+    title: 'Adistec Challenge',
+    image: images.adistec,
+    description: 'React challenge for adistec, a software factory',
+    linkToPage: 'https://adistec-challenge.netlify.com/',
+    linkToGithub: 'https://github.com/SantyLorenzo/Adistec-react-challenge',
+  },
 ];
 
 const PrevArrow = ({ onClick }) => {

@@ -16,6 +16,7 @@ const images = {
   linkedin: require('../Images/linkedin.png'),
   gmail: require('../Images/gmail.png'),
   github: require('../Images/github.png'),
+  adistec: require('../Images/adistec.png'),
 };
 
 export default images;
