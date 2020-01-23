@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Route, Switch, withRouter } from 'react-router-dom';
 import ReactFullpage from '@fullpage/react-fullpage';
 
 // Components
@@ -18,9 +17,9 @@ const App = () => (
     render={() => (
       <Wrapper>
         <Home className="section" />
-        <Portfolio className="section" />
         <About className="section" />
-        <Contact className="section" />
+        <Portfolio className="section" />
+        {/* <Contact className="section" /> */}
       </Wrapper>
     )}
     ReactFullpage
@@ -34,4 +33,4 @@ const Wrapper = styled.main`
   flex-direction: column;
 `;
 
-export default withRouter(App);
+export default App;

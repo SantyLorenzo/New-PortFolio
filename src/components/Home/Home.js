@@ -2,7 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 
 // Theme and styles
-import './styles.scss';
 import images from '../../Themes/Images';
 import colors from '../../Themes/Colors';
 
